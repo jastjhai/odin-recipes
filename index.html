@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favourite Recipes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Some of My Favourite Recipes</h1>
-    <p><em>Written in October 13, 2025</em></p>
-    <p>Welcome to this mini website of mine, made during my learnings with The Odin Project. This website marks the first ever website I will be building after my last one that I did in Uni around 6 years ago. This will serve as a reminder of my TOP days when I look back in the future.</p>
-    
-    <h2>List of Recipes available!</h2>
-    <p><em>This list will be updated (hopefully) as I continue learning how to code.</em></p>
-    
-    <ul>
-        <li><img src="./images/pexels-catscoming-10169963.jpg" alt="four or more bagels in a decorative basket" width="360"><a href="./recipes/bagels.html">Bagels</a></li>
-        <li><img src="./images/pexels-vlada-karpovich-6947186.jpg" alt="banana pancakes with blueberry topping on a plate" height="240"><a href="./recipes/banana-pancakes.html">Banana Pancakes</a></li>
-        <li><img src="./images/pexels-geraud-pfeiffer-6608542.jpg" alt="one loaf of sourdough and sliced sourdough sliced on a wooden cutting board" height="240"><a href="./recipes/small-batch-sourdough.html">Small-Batch Sourdough</a></li>
-    </ul>
-
-    <p>One of the many ideas I have for this site is to also make my own illustrations and animations to go with. Let's see if I actually go through with this idea. Another idea would be to actually bake the recipe and document myself baking it in the process. Basically some F&ampB photography or videography going on here.</p>
-    <p>Until then, enjoy whatever you see here.</p>
-
+    <div class="container one">
+        <h1>Some of My Favourite Recipes</h1>
+        <p class="date"><em>Written in October 13, 2025</em></p>
+        <p>Welcome to this mini website of mine, made during my learnings with The Odin Project. This website marks the first ever website I will be building after my last one that I did in Uni around 6 years ago. This will serve as a reminder of my TOP days when I look back in the future.</p>
+    </div>
+    <div class="recipe-container">
+        <h2>List of Recipes available!</h2>
+        <p><em>This list will be updated (hopefully) as I continue learning how to code.</em></p>
+        <div>
+            <ul class="recipe-content">
+                <li class="recipe one"><img src="./images/pexels-catscoming-10169963.jpg" alt="four or more bagels in a decorative basket" width="360"><a href="./recipes/bagels.html">Bagels</a></li>
+                <li class="recipe two"><img src="./images/pexels-vlada-karpovich-6947186.jpg" alt="banana pancakes with blueberry topping on a plate" height="240"><a href="./recipes/banana-pancakes.html">Banana Pancakes</a></li>
+                <li class="recipe three"><img src="./images/pexels-geraud-pfeiffer-6608542.jpg" alt="one loaf of sourdough and sliced sourdough sliced on a wooden cutting board" height="240"><a href="./recipes/small-batch-sourdough.html">Small-Batch Sourdough</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container two">
+        <p>One of the many ideas I have for this site is to also make my own illustrations and animations to go with. Let's see if I actually go through with this idea. Another idea would be to actually bake the recipe and document myself baking it in the process. Basically some F&ampB photography or videography going on here.</p>
+        <p>Until then, enjoy whatever you see here.</p>
+    </div>
 </body>
 </html>
